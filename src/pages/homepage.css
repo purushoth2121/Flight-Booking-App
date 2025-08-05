@@ -1,0 +1,59 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  height: 100vh;
+  width: 97%;
+  background-color: #f0f0f0;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
+
+.search-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.search-form button {
+  margin-left: 20px;
+  width: 90%;
+  padding: 8px;
+  background-color: #007bff;
+  color: black;
+  border-radius: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+
+/* COnfirmation page */
+.confirmation-page {
+  padding: 10px;
+}
+
+.ticket {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.ticket-detail {
+  display: flex;
+  justify-content: space-evenly;
+
+}

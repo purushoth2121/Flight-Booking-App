@@ -1,0 +1,26 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: 10px 20px;
+  color: white;
+  width: 1100px;
+}
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: #0000ff;
+}   
