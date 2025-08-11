@@ -1,3 +1,4 @@
+import React from 'react';
 import React, { useState } from 'react';
 import './flights.css';
 import User from './User';
