@@ -1,0 +1,98 @@
+/* booking.css */
+
+/* Container styling */
+.booking-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Heading */
+.booking-container h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Card styling */
+.booking-card {
+  background: #fff;
+  border: 1px solid #e0e6ed;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.booking-card:hover {
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Flight ID */
+.booking-card h3 {
+  font-size: 18px;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+/* Paragraph details */
+.booking-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.booking-card h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #2c3e50;
+}
+
+/* Actions (buttons) */
+.booking-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Cancel button */
+.cancel-btn {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Confirm button */
+.confirm-btn {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.confirm-btn:hover {
+  background-color: #1e874b;
+}
+
+/* No bookings message */
+.booking-container p {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}

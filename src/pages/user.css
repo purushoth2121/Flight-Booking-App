@@ -1,0 +1,90 @@
+/* Dimmed background */
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* stays on top */
+}
+
+/* Modal content box */
+.login-modal form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+/* Title */
+.login-modal h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+/* Input fields */
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-group input:focus {
+  border: 1px solid #007bff;
+}
+
+/* Buttons */
+.login-modal button {
+  background: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-modal button:hover {
+  background: #0056b3;
+}
+
+.login-modal button[type="button"] {
+  background: #ccc;
+  color: #333;
+}
+
+.login-modal button[type="button"]:hover {
+  background: #999;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
