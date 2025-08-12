@@ -42,7 +42,7 @@ const User = ({ onClose, onSubmit }) => {
           <label>Name:</label>
           <input type="text" name="name" value={userData.name} onChange={handleChange} required />
         </div>
-        {/* <div className='form-group'>
+        <div className='form-group'>
           <label>Email:</label>
           <input type="email" name="email" value={userData.email} onChange={handleChange} required />
         </div>
@@ -57,7 +57,7 @@ const User = ({ onClose, onSubmit }) => {
         <div className='form-group'>
           <label>Address:</label>
           <input type="text" name="address" value={userData.address} onChange={handleChange} />
-        </div> */}
+        </div>
         <button type="submit">Save & Book</button>
         <button type="button" onClick={onClose} style={{ marginLeft: '10px' }}>
           Cancel

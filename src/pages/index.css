@@ -143,11 +143,11 @@ body {
 }
 
 .box3 {
-  background: url('https://images.unsplash.com/photo-1502741338009-cac2772e18bc') center/cover no-repeat;
+  background: url('./public/tamilnadu.jpg') center/cover no-repeat;
 }
 
 .box4 {
-  background: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29') center/cover no-repeat;
+  background: url('./dubai.jpg') center/cover no-repeat;
 }
 
 /* Stats section */
