@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Index from './pages/index';
 import Flights from './pages/Flights';
@@ -7,20 +7,19 @@ import Confirmation from './pages/Confirmation';
 import Footer from './components/Footer';
 import ScrollUp from './components/ScrollUp';
 
-
 const App = () => {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
-        <Route path="/index" element={<Index />} />
+        <Route path="/" element={<Index />} />   {/* 👈 use "/" for home */}
         <Route path="/flights" element={<Flights />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/confirmation" element={<Confirmation />} />
       </Routes>
       <ScrollUp />
-      <Footer />  
-    </Router>
+      <Footer />
+    </>
   )
 }
 export default App;
