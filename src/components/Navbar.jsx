@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="navbar">
         <h2 className="logo">FlyBook</h2>
         <ul className="nav-links">
-          <p><Link to="/">Check-in</Link></p>
+          <p><Link to="/index">Check-in</Link></p>
           <p><Link to="/flights">Flights</Link></p>
           <p><Link to="/booking/">My Booking</Link></p>
           <p><Link to="/confirmation">Confirmation</Link></p>

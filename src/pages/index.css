@@ -137,18 +137,18 @@ body {
 .box1 {
   background: url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b') center/cover no-repeat;
 }
-
 .box2 {
-  background: url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1586343947390-92a2b8d6b25e') center/cover no-repeat; /* Marina Beach, Chennai */
 }
 
 .box3 {
-  background: url('./public/tamilnadu.jpg') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1589739909062-c8af2dffb4c2') center/cover no-repeat; /* Meenakshi Amman Temple, Madurai */
 }
 
 .box4 {
-  background: url('./dubai.jpg') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1595421829691-982d8f72d0eb') center/cover no-repeat; /* Ooty Hills, Tamil Nadu */
 }
+
 
 /* Stats section */
 .stats-container {

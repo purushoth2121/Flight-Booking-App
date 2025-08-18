@@ -92,23 +92,36 @@ function Index() {
         <h2>Popular Destinations</h2>
         <div className="destination-cards">
           <div className="card">
-            <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad" alt="Paris" />
+            <img
+              src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80"
+              alt="Paris"
+            />
             <p>Paris, France</p>
           </div>
           <div className="card">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Goa" />
-            <p>Goa, India</p>
+            <img
+              src="https://images.unsplash.com/photo-1586343947390-92a2b8d6b25e?auto=format&fit=crop&w=800&q=80"
+              alt="Marina Beach"
+            />
+            <p>Chennai, Tamil Nadu</p>
           </div>
           <div className="card">
-            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Tamilnadu" />
-            <p>Tamilnadu, India</p>
+            <img
+              src="https://images.unsplash.com/photo-1589739909062-c8af2dffb4c2?auto=format&fit=crop&w=800&q=80"
+              alt="Meenakshi Temple"
+            />
+            <p>Madurai, Tamil Nadu</p>
           </div>
           <div className="card">
-            <img src="https://images.unsplash.com/photo-1549887534-4a43aaee17a6" alt="Dubai" />
-            <p>Dubai, UAE</p>
+            <img
+              src="https://images.unsplash.com/photo-1595421829691-982d8f72d0eb?auto=format&fit=crop&w=800&q=80"
+              alt="Ooty Hills"
+            />
+            <p>Ooty, Tamil Nadu</p>
           </div>
         </div>
       </div>
+
 
       {/* Why Choose Us */}
       <div className="why-choose-us">

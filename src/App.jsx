@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Index from './pages/index';
@@ -14,7 +13,7 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Index />} />
+        <Route path="/index" element={<Index />} />
         <Route path="/flights" element={<Flights />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/confirmation" element={<Confirmation />} />

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://purushoth2121.github.io/Flight-Booking-App",
+  "homepage": "https://purushoth2121.github.io/Flight-Booking-App/index",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
