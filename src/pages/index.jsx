@@ -91,25 +91,25 @@ function Index() {
         <div className="destination-cards">
           <div className="card">
             <img
-            src="./img/Chennai.avif"
+            src="./img/Chennai.jpeg"
             alt="Chennai Beach"
             />
             <p>Chennai, Tamilnadu</p>
           </div>
           <div className="card">
-            <img src="./img/thanjai.avif" alt="thanjai" />
+            <img src="./img/thanjai.jpeg" alt="thanjai" />
             <p>Thanjavur, Tamil Nadu</p>
           </div>
           <div className="card">
             <img
-            src="./img/Goa.avif"
+            src="./img/Goa.jpeg"
             alt="Goa"
             />
             <p>Goa</p>
           </div>
           <div className="card">
             <img
-            src="./img/Ooty.avif"
+            src="./img/Ooty.jpeg"
             alt="Ooty Hills"
             />
             <p>Ooty, Tamil Nadu</p>
@@ -123,25 +123,25 @@ function Index() {
         <div className="destination-cards">
           <div className="card">
             <img
-            src="./img/China.avif"
+            src="./img/China.jpeg"
             alt="china great wall"
             />
             <p>Great Wall, China</p>
           </div>
           <div className="card">
-            <img src="./img/singapore.avif" alt="singapre" />
+            <img src="./img/Singapore.jpeg" alt="singapre" />
             <p>singapre</p>
           </div>
           <div className="card">
             <img
-            src="./img/korea.webp"
+            src="./img/korea.jpeg"
             alt="Korea"
             />
             <p>Korea</p>
           </div>
           <div className="card">
             <img
-            src="./img/Delhi.avif"
+            src="./img/Delhi.jpeg"
             alt="Indian Gate"
             />
             <p>Delhi</p>
