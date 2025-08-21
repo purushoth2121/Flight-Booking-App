@@ -31,6 +31,10 @@ body {
   cursor: pointer;
   margin-bottom: 2rem;
 }
+.hero-banner>p{
+  font-size: 20px;
+  font-weight: 900;
+}
 
 /* Layout for main content */
 .index {
@@ -48,10 +52,34 @@ body {
   padding: 1.5rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: Movedown 1.5s linear infinite;
+  animation-delay: 3s;
+}
+@keyframes Movedown {
+  0%{
+    transform: translateY(0px);
+  }
+   25%{
+    transform: translateY(-7px);
+  }
+  
+  50%{
+    transform: translateY(0px);
+  }
+  75%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+
 }
 
 .offers h2 {
   margin-bottom: 1rem;
+  border-bottom: 2px dashed ;
+  width: 75px;
+  border-radius: 2px;
 }
 
 .offers p {
@@ -132,21 +160,6 @@ body {
 
 .offers-box:hover {
   transform: scale(1.05);
-}
-
-.box1 {
-  background: url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b') center/cover no-repeat;
-}
-.box2 {
-  background: url('https://images.unsplash.com/photo-1586343947390-92a2b8d6b25e') center/cover no-repeat; /* Marina Beach, Chennai */
-}
-
-.box3 {
-  background: url('https://images.unsplash.com/photo-1589739909062-c8af2dffb4c2') center/cover no-repeat; /* Meenakshi Amman Temple, Madurai */
-}
-
-.box4 {
-  background: url('https://images.unsplash.com/photo-1595421829691-982d8f72d0eb') center/cover no-repeat; /* Ooty Hills, Tamil Nadu */
 }
 
 

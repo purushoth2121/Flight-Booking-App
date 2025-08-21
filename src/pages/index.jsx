@@ -1,14 +1,13 @@
-
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './index.css';
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./index.css";
 
 function Index() {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
-    from: '',
-    to: '',
-    date: '',
+    from: "",
+    to: "",
+    date: "",
     passengers: 1,
   });
 
@@ -21,12 +20,11 @@ function Index() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    navigate('/flights', { state: formData });
+    navigate("/flights", { state: formData });
   };
 
   return (
     <div>
-
       {/* Hero Banner */}
       <div className="hero-banner">
         <h1>Find Your Next Adventure</h1>
@@ -36,7 +34,7 @@ function Index() {
 
       {/* Offers Section */}
       <div className="index">
-        <div className='offers'>
+        <div className="offers">
           <div>
             <h2>Offers</h2>
             <p>Get $100 On first booking</p>
@@ -93,31 +91,60 @@ function Index() {
         <div className="destination-cards">
           <div className="card">
             <img
-              src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=800&q=80"
-              alt="Paris"
+            src="./img/Chennai.avif"
+            alt="Chennai Beach"
             />
-            <p>Paris, France</p>
+            <p>Chennai, Tamilnadu</p>
+          </div>
+          <div className="card">
+            <img src="./img/thanjai.avif" alt="thanjai" />
+            <p>Thanjavur, Tamil Nadu</p>
           </div>
           <div className="card">
             <img
-              src="https://images.unsplash.com/photo-1586343947390-92a2b8d6b25e?auto=format&fit=crop&w=800&q=80"
-              alt="Marina Beach"
+            src="./img/Goa.avif"
+            alt="Goa"
             />
-            <p>Chennai, Tamil Nadu</p>
+            <p>Goa</p>
           </div>
           <div className="card">
             <img
-              src="https://images.unsplash.com/photo-1589739909062-c8af2dffb4c2?auto=format&fit=crop&w=800&q=80"
-              alt="Meenakshi Temple"
-            />
-            <p>Madurai, Tamil Nadu</p>
-          </div>
-          <div className="card">
-            <img
-              src="https://images.unsplash.com/photo-1595421829691-982d8f72d0eb?auto=format&fit=crop&w=800&q=80"
-              alt="Ooty Hills"
+            src="./img/Ooty.avif"
+            alt="Ooty Hills"
             />
             <p>Ooty, Tamil Nadu</p>
+          </div>
+        </div>
+      </div>
+
+            {/* Yours Recomendation */}
+      <div className="destinations">
+        <h2>Yours Recomendation</h2>
+        <div className="destination-cards">
+          <div className="card">
+            <img
+            src="./img/China.avif"
+            alt="china great wall"
+            />
+            <p>Great Wall, China</p>
+          </div>
+          <div className="card">
+            <img src="./img/singapore.avif" alt="singapre" />
+            <p>singapre</p>
+          </div>
+          <div className="card">
+            <img
+            src="./img/korea.webp"
+            alt="Korea"
+            />
+            <p>Korea</p>
+          </div>
+          <div className="card">
+            <img
+            src="./img/Delhi.avif"
+            alt="Indian Gate"
+            />
+            <p>Delhi</p>
           </div>
         </div>
       </div>
@@ -143,26 +170,26 @@ function Index() {
       </div>
 
       {/* Our flights */}
-      <div className='stats-container'>
+      <div className="stats-container">
         <div className="stats">
           <div className="stats-boxs-1">
             <h1>1,300+</h1>
             <p>Daily flights</p>
           </div>
           <div className="stats-boxs-2">
-            <div className='stats-box1'>
+            <div className="stats-box1">
               <h1>70+</h1>
               <p>Domestic Destinations</p>
             </div>
-            <div className='stats-box1'>
+            <div className="stats-box1">
               <h1>30+</h1>
               <p>International Destinations</p>
             </div>
-            <div className='stats-box1'>
+            <div className="stats-box1">
               <h1>1000+</h1>
               <p>Happy customers</p>
             </div>
-            <div className='stats-box1'>
+            <div className="stats-box1">
               <h1>100+</h1>
               <p>Fleet strong</p>
             </div>
@@ -179,7 +206,6 @@ function Index() {
           <button type="submit">Subscribe</button>
         </form>
       </div>
-
     </div>
   );
 }
